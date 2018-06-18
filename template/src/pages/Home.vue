@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>{{ userName }}</h1>
+    <h1>\{{ userName }}</h1>
     <user />
     <p class="instructions">Pressione o <strong>espaço</strong> do seu teclado</p>
     <img class="logo" src="../assets/img/logo.png" alt="">

@@ -6,23 +6,23 @@
     <div class="right">
       <div class="group">
         <label class="label">Genêro</label>:
-        <label class="info">{{ user.gender }}</label>
+        <label class="info">\{{ user.gender }}</label>
       </div>
       <div class="group">
         <label class="label">Idade</label>:
-        <label class="info">{{ user.age }}</label>
+        <label class="info">\{{ user.age }}</label>
       </div>
       <div class="group">
         <label class="label">Aniversário</label>:
-        <label class="info">{{ user.birthday.dmy }}</label>
+        <label class="info">\{{ user.birthday.dmy }}</label>
       </div>
       <div class="group">
         <label class="label">Email</label>:
-        <label class="info">{{ user.email }}</label>
+        <label class="info">\{{ user.email }}</label>
       </div>
       <div class="group">
         <label class="label">Password</label>:
-        <label class="info">{{ user.password }}</label>
+        <label class="info">\{{ user.password }}</label>
       </div>
     </div>
   </article>
