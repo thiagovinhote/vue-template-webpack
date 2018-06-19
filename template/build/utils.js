@@ -40,7 +40,8 @@ exports.cssLoaders = function (options) {
         loader: 'sass-resources-loader',
         options: {
           resources: [
-            resolveResouce('index.scss')
+            resolveResouce('geral/index.scss'),
+            resolveResouce('helpers/index.scss'),
           ]
         }
       }
